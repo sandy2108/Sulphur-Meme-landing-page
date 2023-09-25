@@ -1,0 +1,104 @@
+/* globals.css */
+
+/* Import Tailwind base, components, and utilities */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Define custom fonts */
+@font-face {
+  font-family: 'SharpGrotesk';
+  src:url('../fonts/SharpGrotesk-Book20.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Set the default font for the entire app */
+body {
+  font-family: 'SharpGrotesk', sans-serif;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+.herobg {
+  background: rgb(0,0,0);
+  background: linear-gradient(297deg, rgba(0,0,0,1) 11%, rgba(6,60,14,1) 47%, rgba(4,42,10,1) 63%, rgba(0,0,0,1) 100%); 
+}
+
+.bgimage{
+  background-image: url("/bg.png");
+  background-position: center;
+  
+  
+}
+
+.memempotsbg {
+  background-image: linear-gradient(
+    0deg,
+    hsl(105deg 76% 15%) 0%,
+    hsl(108deg 69% 14%) 2%,
+    hsl(110deg 63% 13%) 4%,
+    hsl(112deg 58% 12%) 7%,
+    hsl(112deg 53% 10%) 11%,
+    hsl(110deg 50% 9%) 17%,
+    hsl(109deg 50% 7%) 27%,
+    hsl(113deg 52% 6%) 41%,
+    hsl(117deg 55% 4%) 63%,
+    hsl(120deg 50% 1%) 100%
+  );
+}
+
+.Btn {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.Btn::before {
+  position: absolute;
+  content: "PRESALE END";
+  color: #0faf00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.Btn:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn:active {
+  transform: scale(0.95);
+}
