@@ -12,9 +12,9 @@ import TokenomicsChart from './TokenomicsChart';
 const Tokenomics = () => (
   <section className={`sm:p-16 xs:p-8 px-6 py-12 bg-black min-h-screen blackbg relative z-10`}>
       <div className='items-center justify-center max-w-[1340px] mx-auto'>
-       <TypingText title="Tokenomics" textStyles="text-center font-normal text-[#80e956] text-2xl" />
+       <TypingText title="Tokenomics" textStyles="text-center font-normal text-[#ffffbf] text-2xl" />
 
-       <TitleText title={<>Supply and Distribution</>} textStyles="text-center text-white" />
+       <TitleText title={<>ALLOCATION</>} textStyles="text-center text-white" />
        </div>
 
     <motion.div
@@ -30,7 +30,7 @@ const Tokenomics = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <TypingText title="Tokenomics" textStyles="text-2xl" />
+        <TypingText title="Tokenomics" textStyles="text-2xl text-[#ffffbf]"/>
         <TitleText title={<>Allocation</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {Tokeninfo.map((feature) => (

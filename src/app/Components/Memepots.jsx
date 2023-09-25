@@ -9,14 +9,14 @@ const Memepots = () => {
       alt: "/",
       content:
         "Prepare for daily excitement! Hold $POT tokens, win free ETH in our Daily MemePots, and aim higher with our Mega MemePots for even bigger rewards.",
-      title: "Daily MemePots",
+      title: "SHIB ARMY",
     },
     {
       imageSrc: "/star.svg",
       alt: "/",
       content:
         "Periodic Mega MemePots go to one community member, chosen via onchain VRF, distribution through onchain Automation; ineligible if attached to MEV or blacklisted.",
-      title: "Mega MemePots",
+      title: "CAL ARMY",
     },
   ];
 
@@ -26,14 +26,14 @@ const Memepots = () => {
       alt: "/",
       content:
         " By blending meme culture with DeFi, MemePot creates an exclusive ecosystem and fuels active participation through regular ETH rewards.",
-      title: "MemeFi Fusion",
+      title: "BURN $CAL",
     },
     {
       imageSrc: "/star.svg",
       alt: "/",
       content:
         "MemePot employs innovative jackpots that promote diverse investments, backed by transparent onchain selection, while safeguarding fairness through exclusion policies",
-      title: "Holistic Growth Approach",
+      title: "BURN $SHIB",
     },
   ];
 
@@ -42,7 +42,7 @@ const Memepots = () => {
       <div className="max-w-[1340px] mx-auto p-4">
         <div className="flex items-center py-5">
           <h1 className="font-bold text-3xl md:text-6xl max-w-[630px] text-white">
-            What Makes <span className="text-[#Afff03]">MemePot Unique?</span>
+            What Makes <span className="text-[#ffffbf]">SULPHUR Unique?</span>
           </h1>
         </div>
         <div className="grid lg:grid-cols-2">
@@ -64,7 +64,7 @@ const Memepots = () => {
                       className="rounded-full shadow-sm shadow-[#deff4c] mr-5"
                     />
 
-                    <h1 className="flex-1 font-inter font-normal cursor-pointer text-[#deff4c] hover:text-white text-2xl leading-6 my-5">
+                    <h1 className="flex-1 font-inter font-normal cursor-pointer text-[#ffffbf] hover:text-white text-2xl leading-6 my-5">
                       <Link href="https://t.me/memepoteth">{card.title} </Link>
                     </h1>
                   </div>
@@ -80,7 +80,7 @@ const Memepots = () => {
 
           <div className="rounded-2xl lg:mt-8 lg:mb-2 mx-5  mt-5 overflow-hidden relative">
             <Image
-              src="/pepe.jpg"
+              src="/sulphu.jpeg"
               width={100}
               height={100}
               alt="image"
@@ -90,7 +90,7 @@ const Memepots = () => {
             <div className="absolute bottom-0 left-0 p-4">
               <Link href="https://t.me/memepoteth" alt="/">
                 <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl px-4 hover:text-[#deff4c] my-2 text-white font-bold">
-                  Meet the MemePot Community
+                  Join the Burn revolution
                 </h1>
               </Link>
             </div>
@@ -100,7 +100,7 @@ const Memepots = () => {
         <div className="grid lg:grid-cols-2">
           <div className=" lg:flex rounded-2xl lg:mt-8 lg:mb-2 mx-5  mt-5 overflow-hidden relative order-last lg:order-first">
             <Image
-              src="/meme.jpg"
+              src="/sul.jpeg"
               width={100}
               height={100}
               alt="image"
@@ -113,7 +113,7 @@ const Memepots = () => {
                 alt="/"
               >
                 <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl px-4 hover:text-[#deff4c] my-2 text-white font-bold">
-                  Buy Memepot | $POT
+                  Buy $SULPHUR
                 </h1>
               </Link>
             </div>
@@ -137,7 +137,7 @@ const Memepots = () => {
                       className="rounded-full shadow-sm shadow-[#deff4c] mr-5"
                     />
 
-                    <h1 className="flex-1 font-inter font-normal cursor-pointer text-[#deff4c] hover:text-white text-2xl leading-6 my-5">
+                    <h1 className="flex-1 font-inter font-normal cursor-pointer text-[#ffffbf] hover:text-white text-2xl leading-6 my-5">
                       <Link href="https://t.me/memepoteth">{card.title} </Link>
                     </h1>
                   </div>

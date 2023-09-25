@@ -10,12 +10,12 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="w-full bg-[#0a1c04]">
+    <div className="w-full bg-black">
       <div className="max-w-[1340px] mx-auto p-4">
         <div className="flex items-center justify-between h-full">
           <Link href="/" passHref>
             <div className="">
-              <Image src="/logos.png" width={60} height={40} alt="Logo" />
+              <Image src="/sulphur.jpeg" width={60} height={40} alt="Logo" />
             </div>
           </Link>
 
@@ -25,9 +25,7 @@ const Navbar = () => {
               {navItems.map((item, index) => (
                 <Link href={item.link} key={index} className="mr-4">
                   <h1
-                    className={`${
-                      index === 0 ? "text-[#80e956]" : "text-[#FFFFFF]"
-                    } text-[16px] font-normal hover:text-[#Afff03]`}
+                    className="text-[#ffffbf] text-[16px] font-normal hover:text-[#FFFFED]"
                   >
                     {item.title}
                   </h1>
@@ -48,7 +46,7 @@ const Navbar = () => {
                 />{" "}
               </Link>
 
-              <Link href="https://t.me/memepoteth" target="_blank">
+              <Link href="https://t.me/SulfurCalcium" target="_blank">
                 {" "}
                 <Image
                   src="/tg.svg"
@@ -61,9 +59,9 @@ const Navbar = () => {
             </div>
             
             <div className="ml-10">
-              <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0xb4635f438f8bbf2028f5ab83061f0cae2c2221e5">
-              <button className="border px-10 py-1 font-normal rounded-full border-0.30 border-green-400 text-[#FFFFFF] ">
-                BUY $POT
+              <Link href="https://www.dextools.io/app/en/ether/pair-explorer/">
+              <button className="border px-10 py-1 font-normal rounded-full border-0.30 border-[#ffffbf] text-[#FFFFFF] ">
+                BUY $SULPHUR
               </button>
               </Link>
             </div>

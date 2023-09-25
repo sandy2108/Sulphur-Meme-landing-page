@@ -3,13 +3,10 @@ export const navItems = [
         title:'Home',
         link: '/',
     },
-    {
-        title:'Whitepaper',
-        link:'https://www.dropbox.com/scl/fi/g5qttyjqahugxsvgsufv1/MemePot-Whitepaper.pdf?rlkey=fzh19zhyo9ogndu3shvcbfvhc&dl=0',
-    },
+
     {
         title:'Chart',
-        link:'https://www.dextools.io/app/en/ether/pair-explorer/0xb4635f438f8bbf2028f5ab83061f0cae2c2221e5'
+        link:'https://www.dextools.io/app/en/ether/pair-explorer/'
     },
     
    
@@ -29,7 +26,7 @@ export const RoadmapFeatures = [
       title: "Phase 1: Early Investment",
       date: "Aug",
       icon: "/star.svg",
-      iconBg: "#010301",
+      iconBg: "#ffffbf",
       tasks: [
         "Setup Telgram and Twitter Channels",
         "Tokenomics and Whitepaper",
@@ -40,7 +37,7 @@ export const RoadmapFeatures = [
       title: "Phase 2: Fundamentals",
       date: "Sep",
       icon: "/pending.png",
-      iconBg: "#80e956",
+      iconBg: "#ffffbf",
       tasks: [
         "Initial Dex Offering",
         "Token Launch",
@@ -56,7 +53,7 @@ export const RoadmapFeatures = [
       title: "Phase 3: Grow and Evolve",
       date: "OCT - 23",
       icon: "/pending.png",
-      iconBg: "#80e956",
+      iconBg: "#ffffbf",
       tasks: [
         "Press Release: CoinTelegraph, Yahoo! Finance",
         "Asia Socials and Community: Telegram,Twitter, WeChat, and Weibo Community Start-Up and Moderation",
@@ -71,7 +68,7 @@ export const Tokeninfo = [
       imgUrl: "/star.svg",
       title: "Supply",
       subtitle:
-        " The total supply is 99,000,000,000 tokens and 2.5 % tax on both buys and sells ",
+        " The total supply is 1,000,000 tokens and 7 % tax on buys and  12% sells ",
     },
     {
       imgUrl: "/star.svg",

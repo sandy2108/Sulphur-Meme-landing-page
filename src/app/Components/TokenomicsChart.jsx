@@ -12,7 +12,7 @@ const TokenomicsChart = () => {
         label: 'My First Dataset',
         data: [85, 10, 5],
         backgroundColor: [
-          '#379237', 
+          '#ffffbf', 
           '#FFFFFF', 
           '#F0FF42', 
         ],

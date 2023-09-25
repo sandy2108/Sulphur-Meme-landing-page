@@ -21,7 +21,7 @@ const Footer = () => (
           <div className="flex items-centergap-2">
           <Link href="/" className="my-1 mr-2">
             <Image
-              src="/logos.png"
+              src="/sl.jpeg"
               width={30}
               height={30}
               className="max-w-[50px]"
@@ -30,7 +30,7 @@ const Footer = () => (
           </Link>
           <Link href="/" className="flex-1">
             <h4 className="font-extrabold my-2 text-[18px] md:text-[24px] text-white">
-              MEMEPOT
+              SULPHUR
             </h4>
           </Link>
           </div>
@@ -54,7 +54,7 @@ const Footer = () => (
               className="cursor-pointer"
             />
             </Link>
-            <Link href="https://t.me/memepoteth"  target='_blank'>
+            <Link href="https://t.me/SulfurCalcium"  target='_blank'>
             <Image
               src="/tg.svg"
               height={18}
@@ -66,7 +66,7 @@ const Footer = () => (
           </div>
         </div>
         <p className="font-normal text-[14px] text-white mt-4">
-        Copyright MemePot | mp@memepot.io
+        Copyright SULPHUR| sulphur@protonmail.com
         </p>
       </div>
     </div>

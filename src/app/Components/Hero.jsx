@@ -30,7 +30,7 @@ const Hero = () => {
               <TitleText
                 title={
                   <>
-                    THE NEW KING OF MEMES
+                    Chemical meta shiba based
                     <br className="md:block hidden font-SharpGrotesk" />
                   </>
                 }
@@ -39,15 +39,15 @@ const Hero = () => {
               <TitleText
                 title={
                   <>
-                    MEMEPOT | $POT
+                   Sulfuric burns $Shib 
                     <br className="md:block hidden" />
                   </>
                 }
-                textStyles="text-center my-2 text-[#Afff03]"
+                textStyles="text-center my-2 text-[#ffffbf]"
               /> 
               <div className="flex items-start justify-around">
               <Image src="star.svg" height={20} width={20} className="opacity-20 " alt="star" />
-              <Link href="https://gempad.app/presale/0x91cCF0F9e0FACa039b28aBa03f1C5d4Ebcd0E1C6" target="_blank"><button class="Btn">Presale Ends! </button></Link>
+              <Link href="https://gempad.app/presale/0x91cCF0F9e0FACa039b28aBa03f1C5d4Ebcd0E1C6" target="_blank"><button class="Btn">BURN $CAL! </button></Link>
               <Image src="star.svg" height={20} width={20} alt="star"  />
               
               </div>
@@ -63,7 +63,7 @@ const Hero = () => {
             >
               <div className="rounded-xl border-2 solid overflow-hidden border-white">
                 <Image
-                  src="/memepot.jpg"
+                  src="/sulp.jpeg"
                   width={300}
                   height={280}
                   className="w-[320px] h-[350px] md:w-[480px] md:h-[480px]"
@@ -76,7 +76,7 @@ const Hero = () => {
             <motion.div variants={animateText} className="my-2 px-2 flex items-center justify-center">
             <Image src="star.svg" height={20} width={20} alt="star" />
               <h2 className="text-lg md:text-2xl font-bold text-gray-200 flex text-center  max-w-[550px] my-5 md:py-4">
-                     The greatest memecoin community in the world deserves the greatest rewards programs ever seen in Degenland
+                     The greatest $SHIB community in the world deserves the greatest rewards programs ever seen in Degenland
               </h2>
               <Image src="star.svg" height={20} width={20} className="opacity-20 " alt="star" />
             </motion.div>

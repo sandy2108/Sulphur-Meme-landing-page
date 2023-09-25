@@ -11,38 +11,28 @@ const Welcome = () => {
           <div className="flex items-center py-5">
             <h1 className="font-bold text-3xl md:text-6xl max-w-[680px] text-white">
               Welcome to the{" "}
-              <span className="text-[#Afff03]">MemePot Community</span>
+              <span className="text-[#ffffbf]">SULPHUR Community</span>
             </h1>
           </div>
           <div className="max-w-6xl my-5">
             {/* ...Your paragraphs of text */}
            
             <p className="text-white font-normal text-md md:text-xl">
-              MemePot is the hottest new meme project. MemePot is a community
-              driven project, with daily and monthly rewards to keep the
-              community engaged and volume pouring in for those green god
-              candles that keep the chads pumping and shilling
+            The time has come, the revolt is now. We the shibas are to make $SHIB a real community token. We took over $CALCIUM, now it is our duty to drink $CAL on the moon. Some of $shib army has decided we will use $SULFUR to burn $CAL, our parabolic trends will not be ignored. Drink $CALCIUM to trend upward frens! We will trend upward in honor or Ryoshi.
+            </p>
+            <p className="my-5 text-[#ffffbf] font-bold text-md md:text-xl">
+            MESSAGE FROM $CAL army !
+
+
             </p>
             <p className="my-5 text-white font-normal text-md md:text-xl">
-              MemePot is the only MemeFi Community that rewards chads and degens
-              for apeing and jeeting! The only catch, no jeeting before the
-              daily MemePot drawing.
-            </p>
-            <p className="my-5 text-white font-normal text-md md:text-xl">
-              MemePot gives away free ETH every day to pump your bags, build and
-              grow the community, and to promote decentralized innovation.
+           
+
+We are quite aware of the fall short promises of Shiboshi, $LEASH, Shibarium.  Failed experiments that we put our trust, hopes, and money into. Buying into the shib hype, just to be let down over and over. Now in Jeettember, the $SHIB deployer messes up with $CAL (Calcium). Tons of chads suffering from Hundreds of thousands Ls. The trust fading, transparency withering away - our baby is being rekt. The army deserves better.
             </p>
           </div>
         </div>
-        <div className="absolute opacity-[0.3] md:opacity-100 md:flex right-[42px] bottom-[35px] z-0">
-          <Image
-            src="/money.png"
-            height={90}
-            width={400}
-            alt="/"
-            className=""
-          />
-        </div>
+        
       </div>
     </div>
   );

@@ -28,7 +28,7 @@ const RoadmapCard = ({roadmap}) => (
     }
     >
       <div>
-        <h3 className='text-[#80e956] text-[24px] font-bold'>{roadmap.title}</h3>
+        <h3 className='text-[#ffffbf] text-[24px] font-bold'>{roadmap.title}</h3>
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2 '>
@@ -54,12 +54,12 @@ const Insights = () => (
       className={`2xl:max-w-[1280px] w-full mx-auto flex flex-col`}
     >  
       <Image src="/star.svg" width={20} height={20} alt="star" />
-      <TypingText title="Roadmap" textStyles="text-center font-normal text-[#80e956] text-2xl" />
+      <TypingText title="Roadmap" textStyles="text-center font-normal text-[#ffffbf] text-2xl" />
       <div className="absolute  right-1/3 bottom-0 mt-5 md:mt-20">
              <Image src="/star.svg" width={20} height={20} alt="star" />
 
             </div>  
-      <TitleText title={<>MemePot Milestones</>} textStyles="text-center text-white" />
+      <TitleText title={<>Sulphur Milestones</>} textStyles="text-center text-white" />
       <div className="absolute  right-[100px] center-0 mt-5 md:mt-20">
              <Image src="/star.svg" width={20} height={20} alt="star" />
 

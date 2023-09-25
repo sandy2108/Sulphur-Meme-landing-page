@@ -6,9 +6,9 @@ import { Fragment } from 'react';
 
 
 export const metadata = {
-  title: 'MEMEPOT | $POT',
-  description: 'MemePot gives away free ETH every day to pump your bags, build and grow the community, and to promote decentralized innovation.',
-  imageUrl:'https://firebasestorage.googleapis.com/v0/b/wizard-4fa3a.appspot.com/o/Memepot-logo-green.png?alt=media&token=1b410bc1-e032-46e9-8a24-dc485a06c2d0',
+  title: 'SULPHUR | $SULPHUR',
+  description: 'The vision to help the SHIB and CAL community in order to burn the $SHIB and $CAL',
+  imageUrl:'https://firebasestorage.googleapis.com/v0/b/spac-9eba0.appspot.com/o/sulp.jpeg?alt=media&token=23d63d59-cf17-46f1-8b26-d84932c06e15',
 };
 
 
